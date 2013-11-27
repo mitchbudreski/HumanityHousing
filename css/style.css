@@ -1,1 +1,126 @@
-style.css
+
+body{
+	font-family: Arial;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #d5d4d4;
+}
+
+
+.headwrap {
+	min-width: 900px;
+	clear: both;
+}
+
+.logo {
+	border: 1px dashed tomato;
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin: 3% 0 3% 6%;
+}
+
+.logotext {
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 0 0 0 3%;
+	margin-top: 5%;
+	display: block;
+}
+
+.contentbox {
+	float: right;
+	line-height: 1;
+	width: 45%;
+
+
+}
+
+.contentbox h1 {
+	font-size: 3em;
+	min-width: 450px;
+	margin: 0;
+}
+
+.contentbox p{
+	width: 100%;
+	font-size: 1em;
+	left: 80%;
+	text-align: right;
+
+
+	
+}
+
+
+
+.menu {
+	width: 100%;
+	position: relative;
+	height: 35px;
+	min-width: 550px;
+	margin: auto 0;
+	clear: both;
+	font-size: 1.5em;
+	background-color: #5690b4;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	border-right: solid white 1px;
+	border-left: solid white 1px;
+	vertical-align: center;
+
+}
+
+.menu ul li a:hover {
+	background-color: #bcc5cb;
+
+}
+
+
+.navleft ul li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+}
+
+.navleft a {
+	padding: 0 10px;
+	background-color: #5690b4; 
+	color: white;
+}
+
+.navright a {
+	padding: 0 10px;
+	background-color: #5690b4; 
+	color: white;
+}
+
+.navright ul li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	float: right;
+}
+
+.content-wrapper {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	border: 1px dashed tomato;
+	height: 100%; 
+}
+
+.landing {
+	position: absolute;
+	width: 400px;
+	margin: 0 auto;
+	vertical-align: center;
+}
+

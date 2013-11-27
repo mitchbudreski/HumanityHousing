@@ -1,7 +1,17 @@
 <!-- Header Start -->
 <section class="header">
 	<header>
-		<a href="#" class="toggle-nav" alt="Link: Menu show">=</a>
+		<div class="headwrap">
+		<div class="logo">
+		<img src="" alt="" class="logoimg">
+		</div>
+		<div class="contentbox">
+		<div class="logotext">
+		<h1>Humanity Housing</h1>
+		<p>fuck meeeeee rotten <strong>boys</strong></p>
+		</div><!-- end logotext -->
+		</div> 
+		</div> <!-- close head -->
 
 	</header>
 </section>
