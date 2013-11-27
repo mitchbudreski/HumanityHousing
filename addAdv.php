@@ -1,3 +1,11 @@
+<?php include_once('head.php'); ?>
+	<!-- Header -->
+	<?php include_once('header.php'); ?>
+		<!-- Menu -->
+		<?php include_once('menu.php'); ?>
+
+
+<!-- Add Advocate Div -->
 <div class="adminFormContain">
 
 <form>
@@ -8,7 +16,7 @@
 <input type="text" id="org" name="advOrg" class="" placeholder="butts"><br>
 
 <label for="add">Address:</label><br>
-<input type="text" id="add" name="advAdd" class="" placeholder="butts"><br>
+<input type="text" id="address" name="advAdd" class="" placeholder="butts"><br>
 
 <label for="city">City:</label><br>
 <input type="text" id="city" name="advCity" class="" placeholder="butts"><br>
@@ -34,3 +42,6 @@
 </form>
 
 </div>
+
+<!-- Footer -->
+<?php include_once('footer.php'); ?>
