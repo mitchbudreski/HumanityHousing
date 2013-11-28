@@ -9,9 +9,12 @@ body{
 }
 
 
+/*____________________________________________________HEADER AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
+
 .headwrap {
 	width: 100%;
-	min-width: 800px;
+	min-width: 850px;
 }
 
 .logo {
@@ -24,24 +27,28 @@ body{
 }
 
 .contentbox {
-	float: right;	
+	float: left;	
 	line-height: 1;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 	line-height: 0.5;
-	margin: 8% 0 3% 6%;
-	padding: 0 10% 0 0;
+	margin: 9% 0 0 5%;
+	padding: 0 0 0 0;
+	min-width: 150px;
 }
 
 .logotext {
-	min-width: 350px;
 	height: 100%;
 /*	padding: 0 0 0 3%;*/
 	display: block;
 /*	border: 1px dashed tomato;	*/
 }
 
-
+.searchbar {
+	float: right;
+	margin: 4% 5% 0 0;
+	clear: right;
+}
 
 }
 
@@ -54,7 +61,8 @@ body{
 	font-size: 1em;
 }
 
-
+/*____________________________________________________NAV AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
 
 .menu {
 	width: 100%;
@@ -113,15 +121,23 @@ body{
 		border-left: solid  1px white;
 }
 
-.content-wrapper {
-	width: 100%;
-	min-width: 800px;
-	position: relative;
-	border: 1px dashed tomato;
+
+nav ul ul {
+	display: none;
 }
 
-.landing {
+	nav ul li:hover > ul {
+		display: block; 
+	}
 
+/*____________________________________________________BODY STYLES AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
+
+.content-wrapper {
+	width: 100%;
+	min-width: 850px;
+	position: relative;
+	border: 1px dashed tomato;
 }
 
 .centerwrap {
