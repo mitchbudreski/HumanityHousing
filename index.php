@@ -18,22 +18,36 @@
 			<!-- An Expander *** Copy Paste this code *** -->
 			<article class="expand">
 				<header>
-					<h1>Welcome</h1>
+			
 					
 				</header>
 				
 		<div class="landing">
+		<div class="centerwrap">
+		<div class="absolutecenter">
+				<h1>Welcome</h1>
 			
-			<p>DicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicks
-			dicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksd
-			icksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicks
-			dicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicks
-			DicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicks
-			dicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicksDicksdicksdicksdicksdicks</p>
-			dicks*500
+			<p>dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			</p>
+			
+			<p>dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			dicks dicks dicks dicks dicks dicks dicks dicks dicks </p>
 
 		</div>
-				</div>
+		</div>
+		</div>
+
 			
 			</article>
 			<!-- End Expander -->
