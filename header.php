@@ -10,8 +10,15 @@
 		<h1>Humanity Housing</h1>
 		<p>fuck meeeeee rotten <strong>boys</strong></p>
 		</div><!-- end logotext -->
-		</div> 
-		</div> <!-- close head -->
+		</div> <!-- end contentbox -->		
+		<div class="searchbar">
+			<!-- <label for="search">Search</label> -->
+			<input type="text" name="search" placeholder="Search">
+			<input type="submit" value="search">
+		</div> <!-- end searchbar -->
+
+		</div> <!-- close headwrap -->
+
 
 	</header>
 </section>
