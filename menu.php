@@ -7,8 +7,9 @@
                     </li>
                        </ul>
                        </li>
+                     <li><a href="#" alt="">Hotels</a></li>
 					<li><a href="#" alt="">Advocates</a></li>
-					<li><a href="#" alt="">Hotels</a></li>
+
 				</ul>
 			</div>
 			<div class="navright">

@@ -159,6 +159,12 @@ body{
 	text-align: center;
 }
 
+.infographic {
+	margin: 100px auto;
 
+	width: 1000px;
+	height: 400px;
+	border: 1px dashed tomato;
+}
 
 
