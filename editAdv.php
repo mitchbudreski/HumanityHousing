@@ -1,3 +1,12 @@
+<?php include_once('head.php'); ?>
+	<!-- Header -->
+	<?php include_once('header.php'); ?>
+		<!-- Menu -->
+		<?php include_once('menu.php'); ?>
+
+
+<div class="dashboardcontain">
+        <?php include_once('sidebar.php'); ?>
 <div class="adminFormContain">
 
 <form>
@@ -35,3 +44,6 @@
 </form>
 
 </div>
+</div>
+
+<?php include_once('footer.php'); ?>

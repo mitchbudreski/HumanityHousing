@@ -22,9 +22,26 @@
 					
 				</header>
 				
-		<div class="landing infographic">
-		<!-- <h1>GET A JOB, FAG!</h1> -->
-		<img src="images/hotdogman.png" alt="">
+		<div class="landing">
+		<div class="centerwrap">
+		<div class="absolutecenter">
+			<div class="logintop">
+				<img src="images/logo.png" alt="">
+				<h3>Login</h3>
+			</div>
+			<div class="loginbottom">
+			<div class="position">
+				<label for="username">Username</label><br>
+				<input type="text" name="username" value=""><br>
+				<label for="password">Password</label><br>
+				<input type="password" name="Password" value=""><br>
+				<a href="hotAdd.php"><input type="submit" name="submit" value="Login"></a>
+				</div>
+			</div>
+
+
+		</div>
+		</div>
 		</div>
 
 			
