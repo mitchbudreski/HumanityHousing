@@ -14,13 +14,11 @@ body{
 /*===============================================================================================================================*/
 
 .headwrap {
-<<<<<<< HEAD
 	width: 100%;
 	min-width: 850px;
-=======
 	min-width: 900px;
 	clear: both;
->>>>>>> parent of 29efa59... Finished Proto of index.html
+
 }
 
 .logo {
@@ -29,7 +27,6 @@ body{
 	height: 150px;
 	float: left;
 	margin: 3% 0 3% 6%;
-<<<<<<< HEAD
 
 }
 
@@ -44,13 +41,9 @@ body{
 	min-width: 150px;
 }
 
-.logotext {
-=======
-}
 
 .logotext {
 	width: 50%;
->>>>>>> parent of 29efa59... Finished Proto of index.html
 	height: 100%;
 	float: left;
 	padding: 0 0 0 3%;
@@ -58,20 +51,15 @@ body{
 	display: block;
 }
 
-<<<<<<< HEAD
 .searchbar {
 	float: right;
 	margin: 4% 5% 0 0;
 	clear: right;
 }
-=======
 .contentbox {
 	float: right;
 	line-height: 1;
 	width: 45%;
-
->>>>>>> parent of 29efa59... Finished Proto of index.html
-
 }
 
 .contentbox h1 {
@@ -96,13 +84,10 @@ body{
 
 .menu {
 	width: 100%;
-<<<<<<< HEAD
 	min-width: 800px;
-=======
 	position: relative;
 	height: 35px;
 	min-width: 550px;
->>>>>>> parent of 29efa59... Finished Proto of index.html
 	margin: auto 0;
 	clear: both;
 	font-size: 1.5em;
@@ -110,7 +95,7 @@ body{
 	font-weight: 400;
 }
 
-<<<<<<< HEAD
+
 .menu li {
 	padding: 15px;
 }
@@ -128,9 +113,8 @@ body{
 .menu a {
 	background-color: #5690b4; 
 	color: white;
-=======
+}
 .menu ul li a {
->>>>>>> parent of 29efa59... Finished Proto of index.html
 	text-decoration: none;
 	border-right: solid white 1px;
 	border-left: solid white 1px;
@@ -151,16 +135,16 @@ body{
 	float: left;
 }
 
-<<<<<<< HEAD
+
 
 .navright {
 	padding: 0;
-=======
+}
+
 .navleft a {
 	padding: 0 10px;
 	background-color: #5690b4; 
 	color: white;
->>>>>>> parent of 29efa59... Finished Proto of index.html
 }
 
 .navright a {
@@ -174,7 +158,7 @@ body{
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
-<<<<<<< HEAD
+
 	border-left: solid  1px white;
 }
 
@@ -259,7 +243,6 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
-=======
 }
 
 .content-wrapper {
@@ -277,4 +260,3 @@ html[xmlns] .clearfix {
 	vertical-align: center;
 }
 
->>>>>>> parent of 29efa59... Finished Proto of index.html
