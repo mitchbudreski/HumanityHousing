@@ -204,5 +204,12 @@ li.sidebarItem {
 border: solid 1px black;
 }
 
+/*
+li.sidebarItem:active {
+	background-color: #888888;
+	color: white;
+}
+*/
+
 
 /* dajshff */
