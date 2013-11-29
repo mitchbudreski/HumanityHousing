@@ -159,13 +159,13 @@ body{
 	text-align: center;
 }
 
-<<<<<<< HEAD:css/style.css
 .infographic {
 	margin: 100px auto;
 
 	width: 1000px;
 	height: 400px;
 	border: 1px dashed tomato;
+<<<<<<< HEAD
 =======
 /* -------------------------------------------- ADMIN DASHBOARD -------------------------------------------- */
 
@@ -228,5 +228,8 @@ li.sidebarItem:active {
 	color: white;
 }
 
+=======
+}
+>>>>>>> 4dc6ecd210743542cc3a6ea8aa1fb72c64bdd8dc
 
 
