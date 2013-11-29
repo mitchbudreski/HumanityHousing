@@ -7,7 +7,14 @@
 
 
 <!-- add hotel start -->
+<div class="dashboardContain">
+
+<!-- Admin Sidebar -->
+<?php include_once('sidebar.php'); ?>
+
+
 <div id="adminFormContain">
+
 
 <h2 id="addTitle">Add a hotel</h2>
 <h4>Please add hotel details and corresponding notes</h4>
@@ -80,7 +87,7 @@
 
 </form>
 </div>
-
+</div>
 
 <!-- Footer -->
 <?php include_once('../footer.php'); ?>
