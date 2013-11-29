@@ -2,7 +2,7 @@
 		<!-- Menu List -->
 			<div class="navleft">
 				<ul>
-					<li><a href="#" alt="">THIS IS HOW WE DO IT</a>
+					<li><a href="getstarted.php" alt="">Get Started</a>
 								
                     </li>
                        </ul>

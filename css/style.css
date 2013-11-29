@@ -159,12 +159,75 @@ body{
 	text-align: center;
 }
 
+<<<<<<< HEAD:css/style.css
 .infographic {
 	margin: 100px auto;
 
 	width: 1000px;
 	height: 400px;
 	border: 1px dashed tomato;
+=======
+/* -------------------------------------------- ADMIN DASHBOARD -------------------------------------------- */
+
+div.dashboardContain {
+	overflow: auto;
+	width: 100%;
+	background-color: white;
+	padding-top: 45px;
 }
+
+
+
+/* -------------------------------------------- STYLES FOR ALL ADMIN FORMS -------------------------------------------- */
+
+#adminFormContain {
+float: left;
+width: 600px;
+padding: 15px 60px;
+margin: 15px 5%;
+border: black 1px solid;
+min-width: 900px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+/* -------------------------------------------- STYLES FOR ADMIN MENU -------------------------------------------- */
+
+
+#menuContain {
+	width: 271px;
+	height: 350px;
+	float: left;
+	padding-left: 15px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+}
+
+
+li.sidebarItem {
+	padding: 1.5em;
+	border: solid 1px black;
+}
+
+/*
+li.sidebarItem:active {
+	background-color: #888888;
+	color: white;
+>>>>>>> Steph:admin/css/style.css
+}
+*/
 
 
