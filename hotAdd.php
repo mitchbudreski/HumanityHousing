@@ -1,32 +1,30 @@
-<?php include_once('../head.php'); ?>
+<?php include_once('head.php'); ?>
 	<!-- Header -->
-	<?php include_once('../header.php'); ?>
+	<?php include_once('header.php'); ?>
 		<!-- Menu -->
-		<?php include_once('../menu.php'); ?>
+		<?php include_once('menu.php'); ?>
 
 
 
-<!-- edit hotel start -->
+<!-- add hotel start -->
+<div class="dashboardContain">
+
+<!-- Admin Sidebar -->
+<?php include_once('sidebar.php'); ?>
+
+
 <div id="adminFormContain">
 
-<h2 id="editTitle">Edit an existing hotel</h2>
 
-<form class="hotEditForm" action="" method="post">
+<h2 id="addTitle">Add a hotel</h2>
+<h4>Please add hotel details and corresponding notes</h4>
+
+<form action="" class="hotAddForm" method="post">
+	
+  <div class="left">
 	<div class="row">
    		<label for="hotName" class="required">Hotel Name:</label><br>
     	<input type="text" id="hotName" name="hotName" size="40" maxlength="68" value="" placeholder="hotel">
-    	
-    <div class="row">
-     	<select id="hotName" name="hotName">
-			<label for="hotName" class="required">Hotel:</label><br>
-			<option value="0">-- Select One --</option>
-			<option value="0">&nbsp;</option>
-		</select>
-  	</div>
-  	
-  	<hr>
-
-    	
     </div>
 	<div class="row">
    		<label for="hotAdd" class="required">Address:</label><br>
@@ -51,7 +49,7 @@
     	<input type="text" id="hotRentMax" name="hotRent" size="10" maxlength="10" value=""><br>
     </div>
     <div class="row">
-    	<p>Security Deposit:</p><br>
+    	<p>Security Deposit:</p>
 	    <label for="secDepYes">Yes:</label>
     	<input type="radio" id="secDepYes" name="secDepYes" value="yes">
     	<label for="secDepNo">No:</label>
@@ -61,6 +59,8 @@
    		<label for="secDep" class="required">SD (&#36;):</label><br>
     	<input type="text" id="secDep" name="secDep" size="10" maxlength="10" value="">
     </div>
+  </div>
+  <div class="right">
     <div class="row">
     	<p>Elevator:</p><br>
 	    <label for="elevYes">Yes:</label>
@@ -79,13 +79,17 @@
 	</div>
 	<div class="row">
    		<label for="addnNotes" class="required">Additional Notes:</label><br>
-    	<textarea class="addnNotes" id="addnNotes" size="20" maxlength="500"></textarea>
-    </div>
+    	<textarea class="addnNotes" id="addnNotes" size="20" maxlength="500"></textarea><br>
+      <input type="submit">
+  </div>
+  <div class="row"></div>
+  </div>
+
 
 
 </form>
 </div>
-
+</div>
 
 <!-- Footer -->
-<?php include_once('../footer.php'); ?>
+<?php include_once('footer.php'); ?>

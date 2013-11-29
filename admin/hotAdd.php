@@ -13,7 +13,7 @@
 <?php include_once('sidebar.php'); ?>
 
 
-<div id="adminFormContain">
+<div class="adminFormContain">
 
 
 <h2 id="addTitle">Add a hotel</h2>

@@ -2,13 +2,13 @@
 <section class="header">
 	<header>
 		<div class="headwrap">
-		<div class="logo clearfix">
-		<img src="" alt="" class="logoimg">
+		<div class="logo">
+		<a href="index.php"><img src="images/logo.png" alt="humanity housing text" class="logoimg"></a>
 		</div>
 		<div class="contentbox">
 		<div class="logotext">
 		<h1>Humanity Housing</h1>
-		<p>fuck meeeeee rotten <strong>boys</strong></p>
+		<p>An open repository for Addictions Housing</p>
 		</div><!-- end logotext -->
 		</div> <!-- end contentbox -->		
 		<div class="searchbar">

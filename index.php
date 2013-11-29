@@ -24,25 +24,13 @@
 				
 		<div class="landing">
 		<div class="centerwrap">
-		<div class="absolutecenter">
+		<div class="absolutecenter welcome">
 				<h1>Welcome</h1>
 			
-			<p>dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, repudiandae, quo, soluta in illum maiores perspiciatis necessitatibus laborum dolores autem nulla quod ipsum tempora earum sequi velit optio. Officiis, fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, numquam, animi, molestias, dolore laborum fuga mollitia voluptate id tempora quam saepe quo voluptates libero. Cupiditate, consequatur laudantium cum mollitia nam?
 			</p>
 			
-			<p>dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks dicks 
-			dicks dicks dicks dicks dicks dicks dicks dicks dicks </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente, totam, ad vitae nobis asperiores quisquam culpa consequatur velit quod odit minus similique dolorum adipisci laboriosam deleniti perspiciatis provident tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quae omnis ipsum odio harum libero tempora accusantium recusandae atque? Placeat, repellendus doloribus cupiditate inventore unde expedita explicabo iure nisi animi.</p>
 
 		</div>
 		</div>

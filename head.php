@@ -10,7 +10,12 @@
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
 	<link rel="stylesheet" href="admin/css/style.css">
+=======
+	<link rel="stylesheet" href="css/admin.css">
+>>>>>>> master
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<!-- insetyourshithere -->
 </head>
 <body>
