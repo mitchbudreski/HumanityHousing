@@ -3,7 +3,7 @@
 	<header>
 		<div class="headwrap">
 		<div class="logo">
-		<img src="" alt="" class="logoimg">
+		<img src="images/logo.png" alt="humanity housing text" class="logoimg">
 		</div>
 		<div class="contentbox">
 		<div class="logotext">
@@ -11,9 +11,10 @@
 		<p>fuck meeeeee rotten <strong>boys</strong></p>
 		</div><!-- end logotext -->
 		</div> <!-- end contentbox -->		
-		<div class="login">
+		<div class="searchbar">
 			<!-- <label for="search">Search</label> -->
-		<a href="login.php">Member Login</a>
+			<input type="text" name="search" placeholder="Search">
+			<input type="submit" value="search">
 		</div> <!-- end searchbar -->
 
 		</div> <!-- close headwrap -->
