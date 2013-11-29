@@ -3,11 +3,7 @@
 			<div class="navleft">
 				<ul>
 					<li><a href="#" alt="">THIS IS HOW WE DO IT</a>
-								<ul>
-									<li><a>one</a></li>
-									<li><a>two</a></li>
-									<li><a>three</a></li>
-								</ul>
+								
                     </li>
                        </ul>
                        </li>
