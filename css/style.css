@@ -8,6 +8,14 @@ body{
 	background-color: white;
 }
 
+a{ 
+text-decoration: none;
+}
+
+input {
+	border-radius: 5%;
+}
+
 
 /*____________________________________________________HEADER AND SHIT ___________________________________________________________*/
 /*===============================================================================================================================*/
@@ -15,7 +23,7 @@ body{
 .headwrap {
 	width: 100%;
 	min-width: 920px;
-	margin: 1% 0 2% 1%;
+	margin: 2% 0 2% 1%;
 	top: 0;
 }
 
@@ -49,10 +57,11 @@ body{
 /*	border: 1px dashed tomato;	*/
 }
 
-.searchbar {
+.login {
 	float: right;
-	margin: 0 5% 0 0;
-	clear: right;
+	padding: 15px 50px 0 0;
+	font-size: 0.8em;
+
 }
 
 
@@ -174,6 +183,16 @@ nav ul li:hover > ul {
 	text-align: center;
 }
 
+.absolutecenter.login {
+	background-color: grey;
+	height: 250px;
+	width: 200px;
+}
 
+.absolutecenter.login input {
+	font-size: 1.5em;
+	padding: 0;
+	margin: 0.7em 0.5em;
+}
 
 

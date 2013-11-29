@@ -11,10 +11,9 @@
 		<p>fuck meeeeee rotten <strong>boys</strong></p>
 		</div><!-- end logotext -->
 		</div> <!-- end contentbox -->		
-		<div class="searchbar">
+		<div class="login">
 			<!-- <label for="search">Search</label> -->
-			<input type="text" name="search" placeholder="Search">
-			<input type="submit" value="search">
+		<a href="login.php">Member Login</a>
 		</div> <!-- end searchbar -->
 
 		</div> <!-- close headwrap -->
