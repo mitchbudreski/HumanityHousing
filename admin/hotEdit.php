@@ -19,7 +19,7 @@
     <div class="row">
      	<select id="hotName" name="hotName">
 			<label for="hotName" class="required">Hotel:</label><br>
-			<option value="0">--&gt; Select One &lt;--</option>
+			<option value="0">-- Select One --</option>
 			<option value="0">&nbsp;</option>
 		</select>
   	</div>
@@ -88,4 +88,4 @@
 
 
 <!-- Footer -->
-<?php include_once('footer.php'); ?>
+<?php include_once('../footer.php'); ?>

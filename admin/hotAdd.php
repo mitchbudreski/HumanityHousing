@@ -13,6 +13,8 @@
 <h4>Please add hotel details and corresponding notes</h4>
 
 <form action="" class="hotAddForm" method="post">
+	
+  <div class="left">
 	<div class="row">
    		<label for="hotName" class="required">Hotel Name:</label><br>
     	<input type="text" id="hotName" name="hotName" size="40" maxlength="68" value="" placeholder="hotel">
@@ -40,7 +42,7 @@
     	<input type="text" id="hotRentMax" name="hotRent" size="10" maxlength="10" value=""><br>
     </div>
     <div class="row">
-    	<p>Security Deposit:</p><br>
+    	<p>Security Deposit:</p>
 	    <label for="secDepYes">Yes:</label>
     	<input type="radio" id="secDepYes" name="secDepYes" value="yes">
     	<label for="secDepNo">No:</label>
@@ -50,6 +52,8 @@
    		<label for="secDep" class="required">SD (&#36;):</label><br>
     	<input type="text" id="secDep" name="secDep" size="10" maxlength="10" value="">
     </div>
+  </div>
+  <div class="right">
     <div class="row">
     	<p>Elevator:</p><br>
 	    <label for="elevYes">Yes:</label>
@@ -70,6 +74,8 @@
    		<label for="addnNotes" class="required">Additional Notes:</label><br>
     	<textarea class="addnNotes" id="addnNotes" size="20" maxlength="500"></textarea>
     </div>
+  </div>
+
 
 
 </form>
