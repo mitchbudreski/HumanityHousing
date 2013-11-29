@@ -1,8 +1,8 @@
-<?php include_once('../head.php'); ?>
+<?php include_once('/head.php'); ?>
 	<!-- Header -->
-	<?php include_once('../header.php'); ?>
+	<?php include_once('/header.php'); ?>
 		<!-- Menu -->
-		<?php include_once('../menu.php'); ?>
+		<?php include_once('/menu.php'); ?>
 
 
 <!-- login page start -->
