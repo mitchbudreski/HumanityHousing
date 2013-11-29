@@ -1,12 +1,15 @@
-	<nav class="menu clearfix">
+	<nav class="menu">
 		<!-- Menu List -->
 			<div class="navleft">
 				<ul>
-<<<<<<< HEAD
-					<li><a href="#" alt="">Housing Application</a>  </li>
-=======
-					<li><a href="#" alt="">Housing Application</a></li>
->>>>>>> parent of 595a0cf... header and menu changes
+					<li><a href="#" alt="">Housing Application</a>
+					<ul class="child">
+                           <li><a href="#"><b>liny</b></a></li>
+                           <li><a href="#"><b>Search Reservation</b></a></li>
+                           <li><a href="#"><b>Search Customer</b></a></li>
+                           <li><a href="#"><b>Search Vehicle</b></a></li>
+                       </ul>
+                       </li>
 					<li><a href="#" alt="">Advocates</a></li>
 					<li><a href="#" alt="">Hotels</a></li>
 				</ul>
