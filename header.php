@@ -3,7 +3,7 @@
 	<header>
 		<div class="headwrap">
 		<div class="logo">
-		<img src="" alt="" class="logoimg">
+		<img src="images/logo.png" alt="humanity housing text" class="logoimg">
 		</div>
 		<div class="contentbox">
 		<div class="logotext">
