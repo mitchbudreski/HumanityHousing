@@ -14,7 +14,7 @@ body{
 
 .headwrap {
 	width: 100%;
-	min-width: 920px;
+	min-width: 850px;
 }
 
 .logo {
@@ -50,9 +50,10 @@ body{
 	clear: right;
 }
 
+}
 
 .contentbox h1 {
-	font-size: 2em;
+	font-size: 8em;
 
 
 }
@@ -117,7 +118,7 @@ body{
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
-	border-left: solid  1px white;
+		border-left: solid  1px white;
 }
 
 
@@ -125,9 +126,9 @@ nav ul ul {
 	display: none;
 }
 
-nav ul li:hover > ul {
-	display: block; 
-}
+	nav ul li:hover > ul {
+		display: block; 
+	}
 
 /*____________________________________________________BODY STYLES AND SHIT ___________________________________________________________*/
 /*===============================================================================================================================*/
