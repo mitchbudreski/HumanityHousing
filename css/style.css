@@ -15,6 +15,7 @@ body{
 .headwrap {
 	width: 100%;
 	min-width: 920px;
+	margin: 3% 0 5% 3%;
 }
 
 .logo {
@@ -22,7 +23,8 @@ body{
 	width: 250px;
 	height: 150px;
 	float: left;
-	margin: 3% 0 3% 6%;
+	margin-bottom: 50px;
+
 
 }
 
@@ -32,7 +34,7 @@ body{
 	padding: 0;
 	text-align: left;
 	line-height: 0.5;
-	margin: 9% 0 0 5%;
+	margin: 75px 0 0 2%;
 	padding: 0 0 0 0;
 	min-width: 150px;
 }
@@ -95,6 +97,7 @@ body{
 	list-style-type: none;
 	float: left;
 	border-right: solid  1px white;
+	position: relative;
 }
 
 .navleft a {
@@ -123,6 +126,14 @@ body{
 
 nav ul ul {
 	display: none;
+	position: absolute;
+	background-color: #5690b4;
+	width: 7em;
+	text-align: left;
+}
+
+nav ul ul a {
+	font-size: 1em;
 }
 
 nav ul li:hover > ul {
@@ -140,7 +151,7 @@ nav ul li:hover > ul {
 }
 
 .centerwrap {
-	top: 450px;
+	top: 26em;
 	position: relative;
 }
 
