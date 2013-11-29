@@ -2,7 +2,7 @@
 <section class="header">
 	<header>
 		<div class="headwrap">
-		<div class="logo">
+		<div class="logo clearfix">
 		<img src="" alt="" class="logoimg">
 		</div>
 		<div class="contentbox">
