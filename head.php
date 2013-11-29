@@ -10,6 +10,10 @@
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
+=======
+	<link rel="stylesheet" href="admin/css/admin.css">
+>>>>>>> Steph
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 	<!-- insetyourshithere -->
 </head>
