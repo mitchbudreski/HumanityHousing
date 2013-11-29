@@ -2,13 +2,16 @@
 		<!-- Menu List -->
 			<div class="navleft">
 				<ul>
-					<li><a href="#" alt="">THIS IS HOW WE DO IT</a>
+					<li><a href="#" alt="">Housing Application</a>
 								<ul>
 									<li><a>one</a></li>
 									<li><a>two</a></li>
 									<li><a>three</a></li>
 								</ul>
                     </li>
+                           <li><a href="#"><b>Search Reservation</b></a></li>
+                           <li><a href="#"><b>Search Customer</b></a></li>
+                           <li><a href="#"><b>Search Vehicle</b></a></li>
                        </ul>
                        </li>
 					<li><a href="#" alt="">Advocates</a></li>
