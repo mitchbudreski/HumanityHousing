@@ -2,6 +2,7 @@
 body{
 	font-family: Arial;
 	font-size: 16px;
+	width: 100%;
 	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -13,8 +14,13 @@ body{
 /*===============================================================================================================================*/
 
 .headwrap {
+<<<<<<< HEAD
 	width: 100%;
 	min-width: 850px;
+=======
+	min-width: 900px;
+	clear: both;
+>>>>>>> parent of 29efa59... Finished Proto of index.html
 }
 
 .logo {
@@ -23,6 +29,7 @@ body{
 	height: 150px;
 	float: left;
 	margin: 3% 0 3% 6%;
+<<<<<<< HEAD
 
 }
 
@@ -38,27 +45,49 @@ body{
 }
 
 .logotext {
-	height: 100%;
-/*	padding: 0 0 0 3%;*/
-	display: block;
-/*	border: 1px dashed tomato;	*/
+=======
 }
 
+.logotext {
+	width: 50%;
+>>>>>>> parent of 29efa59... Finished Proto of index.html
+	height: 100%;
+	float: left;
+	padding: 0 0 0 3%;
+	margin-top: 5%;
+	display: block;
+}
+
+<<<<<<< HEAD
 .searchbar {
 	float: right;
 	margin: 4% 5% 0 0;
 	clear: right;
 }
+=======
+.contentbox {
+	float: right;
+	line-height: 1;
+	width: 45%;
+
+>>>>>>> parent of 29efa59... Finished Proto of index.html
 
 }
 
 .contentbox h1 {
-	font-size: 8em;
-
-
+	font-size: 3em;
+	min-width: 450px;
+	margin: 0;
 }
+
 .contentbox p{
+	width: 100%;
 	font-size: 1em;
+	left: 80%;
+	text-align: right;
+
+
+	
 }
 
 /*____________________________________________________NAV AND SHIT ___________________________________________________________*/
@@ -67,14 +96,21 @@ body{
 
 .menu {
 	width: 100%;
+<<<<<<< HEAD
 	min-width: 800px;
+=======
+	position: relative;
+	height: 35px;
+	min-width: 550px;
+>>>>>>> parent of 29efa59... Finished Proto of index.html
 	margin: auto 0;
 	clear: both;
-	font-size: 1em;
+	font-size: 1.5em;
 	background-color: #5690b4;
 	font-weight: 400;
 }
 
+<<<<<<< HEAD
 .menu li {
 	padding: 15px;
 }
@@ -92,25 +128,39 @@ body{
 .menu a {
 	background-color: #5690b4; 
 	color: white;
+=======
+.menu ul li a {
+>>>>>>> parent of 29efa59... Finished Proto of index.html
 	text-decoration: none;
+	border-right: solid white 1px;
+	border-left: solid white 1px;
+	vertical-align: center;
+
 }
 
-
-.menu li:hover a {
+.menu ul li a:hover {
 	background-color: #bcc5cb;
+
 }
 
-.navleft li {
+
+.navleft ul li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
 	float: left;
-	border-right: solid  1px white;
 }
 
+<<<<<<< HEAD
 
 .navright {
 	padding: 0;
+=======
+.navleft a {
+	padding: 0 10px;
+	background-color: #5690b4; 
+	color: white;
+>>>>>>> parent of 29efa59... Finished Proto of index.html
 }
 
 .navright a {
@@ -119,11 +169,12 @@ body{
 	color: white;
 }
 
-.navright li {
+.navright ul li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
+<<<<<<< HEAD
 	border-left: solid  1px white;
 }
 
@@ -208,3 +259,22 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
+=======
+}
+
+.content-wrapper {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	border: 1px dashed tomato;
+	height: 100%; 
+}
+
+.landing {
+	position: absolute;
+	width: 400px;
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+>>>>>>> parent of 29efa59... Finished Proto of index.html
