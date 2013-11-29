@@ -1,8 +1,8 @@
-<?php include_once('../head.php'); ?>
+<?php include_once('head.php'); ?>
 	<!-- Header -->
-	<?php include_once('../header.php'); ?>
+	<?php include_once('header.php'); ?>
 		<!-- Menu -->
-		<?php include_once('../menu.php'); ?>
+		<?php include_once('menu.php'); ?>
 
 
 
@@ -13,7 +13,7 @@
 <?php include_once('sidebar.php'); ?>
 
 
-<div class="adminFormContain">
+<div id="adminFormContain">
 
 
 <h2 id="addTitle">Add a hotel</h2>
@@ -79,8 +79,10 @@
 	</div>
 	<div class="row">
    		<label for="addnNotes" class="required">Additional Notes:</label><br>
-    	<textarea class="addnNotes" id="addnNotes" size="20" maxlength="500"></textarea>
-    </div>
+    	<textarea class="addnNotes" id="addnNotes" size="20" maxlength="500"></textarea><br>
+      <input type="submit">
+  </div>
+  <div class="row"></div>
   </div>
 
 
@@ -90,4 +92,4 @@
 </div>
 
 <!-- Footer -->
-<?php include_once('../footer.php'); ?>
+<?php include_once('footer.php'); ?>
