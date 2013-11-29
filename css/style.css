@@ -2,7 +2,6 @@
 body{
 	font-family: Arial;
 	font-size: 16px;
-	width: 100%;
 	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -10,15 +9,19 @@ body{
 }
 
 
-/*____________________________________________________HEADER AND SHIT ___________________________________________________________*/
-/*===============================================================================================================================*/
-
 .headwrap {
 	width: 100%;
+<<<<<<< HEAD
 	min-width: 850px;
+<<<<<<< HEAD
 	min-width: 900px;
 	clear: both;
 
+=======
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
+=======
+	min-width: 800px;
+>>>>>>> parent of 595a0cf... header and menu changes
 }
 
 .logo {
@@ -31,71 +34,83 @@ body{
 }
 
 .contentbox {
-	float: left;	
+	float: right;	
 	line-height: 1;
 	padding: 0;
-	text-align: left;
+	text-align: right;
 	line-height: 0.5;
-	margin: 9% 0 0 5%;
-	padding: 0 0 0 0;
-	min-width: 150px;
+	margin: 8% 0 3% 6%;
+	padding: 0 10% 0 0;
 }
 
+<<<<<<< HEAD
 
 .logotext {
+<<<<<<< HEAD
 	width: 50%;
+=======
+.logotext {
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
+=======
+	min-width: 350px;
+>>>>>>> parent of 595a0cf... header and menu changes
 	height: 100%;
-	float: left;
-	padding: 0 0 0 3%;
-	margin-top: 5%;
+/*	padding: 0 0 0 3%;*/
 	display: block;
+/*	border: 1px dashed tomato;	*/
 }
 
+<<<<<<< HEAD
 .searchbar {
 	float: right;
 	margin: 4% 5% 0 0;
 	clear: right;
 }
+<<<<<<< HEAD
 .contentbox {
 	float: right;
 	line-height: 1;
 	width: 45%;
+=======
+=======
+
+>>>>>>> parent of 595a0cf... header and menu changes
+
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
 }
 
 .contentbox h1 {
-	font-size: 3em;
-	min-width: 450px;
-	margin: 0;
-}
+	font-size: 8em;
 
+
+}
 .contentbox p{
-	width: 100%;
 	font-size: 1em;
-	left: 80%;
-	text-align: right;
-
-
-	
 }
 
-/*____________________________________________________NAV AND SHIT ___________________________________________________________*/
-/*===============================================================================================================================*/
+
 
 
 .menu {
 	width: 100%;
 	min-width: 800px;
+<<<<<<< HEAD
 	position: relative;
 	height: 35px;
 	min-width: 550px;
+=======
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
 	margin: auto 0;
 	clear: both;
-	font-size: 1.5em;
+	font-size: 1em;
 	background-color: #5690b4;
 	font-weight: 400;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
 .menu li {
 	padding: 15px;
 }
@@ -113,28 +128,28 @@ body{
 .menu a {
 	background-color: #5690b4; 
 	color: white;
+<<<<<<< HEAD
 }
 .menu ul li a {
+=======
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
 	text-decoration: none;
-	border-right: solid white 1px;
-	border-left: solid white 1px;
-	vertical-align: center;
-
 }
 
-.menu ul li a:hover {
+
+.menu li:hover a {
 	background-color: #bcc5cb;
-
 }
 
-
-.navleft ul li {
+.navleft li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
 	float: left;
+	border-right: solid  1px white;
 }
 
+<<<<<<< HEAD
 
 
 .navright {
@@ -145,6 +160,11 @@ body{
 	padding: 0 10px;
 	background-color: #5690b4; 
 	color: white;
+=======
+
+.navright {
+	padding: 0;
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
 }
 
 .navright a {
@@ -153,15 +173,19 @@ body{
 	color: white;
 }
 
-.navright ul li {
+.navright li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""
 	border-left: solid  1px white;
 }
 
+<<<<<<< HEAD
 
 nav ul ul {
 	display: block;
@@ -191,11 +215,17 @@ nav ul ul li a:hover {
 /*____________________________________________________BODY STYLES AND SHIT ___________________________________________________________*/
 /*===============================================================================================================================*/
 
+=======
+>>>>>>> parent of 595a0cf... header and menu changes
 .content-wrapper {
 	width: 100%;
-	min-width: 850px;
+	min-width: 800px;
 	position: relative;
 	border: 1px dashed tomato;
+}
+
+.landing {
+
 }
 
 .centerwrap {
@@ -243,6 +273,7 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
+<<<<<<< HEAD
 }
 
 .content-wrapper {
@@ -260,3 +291,5 @@ html[xmlns] .clearfix {
 	vertical-align: center;
 }
 
+=======
+>>>>>>> parent of 89b4c5e... Revert "Revert "Finished Proto of index.html""

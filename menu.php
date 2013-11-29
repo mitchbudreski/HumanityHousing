@@ -2,7 +2,11 @@
 		<!-- Menu List -->
 			<div class="navleft">
 				<ul>
+<<<<<<< HEAD
 					<li><a href="#" alt="">Housing Application</a>  </li>
+=======
+					<li><a href="#" alt="">Housing Application</a></li>
+>>>>>>> parent of 595a0cf... header and menu changes
 					<li><a href="#" alt="">Advocates</a></li>
 					<li><a href="#" alt="">Hotels</a></li>
 				</ul>
