@@ -2,7 +2,6 @@
 body{
 	font-family: Arial;
 	font-size: 16px;
-	width: 100%;
 	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -10,9 +9,12 @@ body{
 }
 
 
+/*____________________________________________________HEADER AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
+
 .headwrap {
-	min-width: 900px;
-	clear: both;
+	width: 100%;
+	min-width: 850px;
 }
 
 .logo {
@@ -21,79 +23,88 @@ body{
 	height: 150px;
 	float: left;
 	margin: 3% 0 3% 6%;
-}
 
-.logotext {
-	width: 50%;
-	height: 100%;
-	float: left;
-	padding: 0 0 0 3%;
-	margin-top: 5%;
-	display: block;
 }
 
 .contentbox {
-	float: right;
+	float: left;	
 	line-height: 1;
-	width: 45%;
+	padding: 0;
+	text-align: left;
+	line-height: 0.5;
+	margin: 9% 0 0 5%;
+	padding: 0 0 0 0;
+	min-width: 150px;
+}
 
+.logotext {
+	height: 100%;
+/*	padding: 0 0 0 3%;*/
+	display: block;
+/*	border: 1px dashed tomato;	*/
+}
+
+.searchbar {
+	float: right;
+	margin: 4% 5% 0 0;
+	clear: right;
+}
 
 }
 
 .contentbox h1 {
-	font-size: 3em;
-	min-width: 450px;
-	margin: 0;
-}
+	font-size: 8em;
 
+
+}
 .contentbox p{
-	width: 100%;
 	font-size: 1em;
-	left: 80%;
-	text-align: right;
-
-
-	
 }
 
-
+/*____________________________________________________NAV AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
 
 .menu {
 	width: 100%;
 	position: relative;
-	height: 35px;
-	min-width: 550px;
+	height: 50px;
+	min-width: 800px;
 	margin: auto 0;
 	clear: both;
-	font-size: 1.5em;
+	font-size: 1em;
 	background-color: #5690b4;
 }
 
-.menu ul li a {
+.menu li {
+	padding: 15px;
+}
+
+.menu a {
+	background-color: #5690b4; 
+	color: white;
 	text-decoration: none;
-	border-right: solid white 1px;
-	border-left: solid white 1px;
-	vertical-align: center;
-
 }
 
-.menu ul li a:hover {
+
+.menu li:hover a {
 	background-color: #bcc5cb;
-
 }
 
-
-.navleft ul li {
+.navleft li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
 	float: left;
+	border-right: solid  1px white;
 }
 
 .navleft a {
-	padding: 0 10px;
-	background-color: #5690b4; 
-	color: white;
+
+}
+
+.navright {
+	margin: 1em;
+	padding: 0;
 }
 
 .navright a {
@@ -102,25 +113,53 @@ body{
 	color: white;
 }
 
-.navright ul li {
+.navright li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
+		border-left: solid  1px white;
 }
+
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block; 
+	}
+
+/*____________________________________________________BODY STYLES AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
 
 .content-wrapper {
 	width: 100%;
+	min-width: 850px;
 	position: relative;
-	margin: 0 auto;
 	border: 1px dashed tomato;
-	height: 100%; 
 }
 
-.landing {
-	position: absolute;
-	width: 400px;
-	margin: 0 auto;
-	vertical-align: center;
+.centerwrap {
+	top: 450px;
+	position: relative;
 }
+
+.absolutecenter {
+  bottom: 0;
+  height: 600px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+}
+
+.absolutecenter h1 {
+	text-align: center;
+}
+
+
+
 
