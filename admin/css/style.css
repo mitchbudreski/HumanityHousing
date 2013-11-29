@@ -198,11 +198,13 @@ min-width: 900px;
 	width: 271px;
 	height: 350px;
 	float: left;
-	padding-left: 15px;
+	padding-left: 55px;
 }
 
 ul {
 	list-style-type: none;
+	border: 1px black solid;
+	padding: 0;
 }
 
 li a {
@@ -212,14 +214,13 @@ li a {
 
 li.sidebarItem {
 	padding: 1.5em;
-	border: solid 1px black;
+	border-bottom: solid 1px black;
+	background-color: #c5c5c5;
 }
 
-/*
 li.sidebarItem:active {
 	background-color: #888888;
 	color: white;
 }
-*/
 
 
