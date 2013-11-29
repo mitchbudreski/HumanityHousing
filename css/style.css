@@ -1,0 +1,164 @@
+
+body{
+	font-family: Arial;
+	font-size: 16px;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #d5d4d4;
+}
+
+
+/*____________________________________________________HEADER AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
+
+.headwrap {
+	width: 100%;
+	min-width: 920px;
+}
+
+.logo {
+	border: 1px dashed tomato;
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin: 3% 0 3% 6%;
+
+}
+
+.contentbox {
+	float: left;	
+	line-height: 1;
+	padding: 0;
+	text-align: left;
+	line-height: 0.5;
+	margin: 9% 0 0 5%;
+	padding: 0 0 0 0;
+	min-width: 150px;
+}
+
+.logotext {
+	height: 100%;
+/*	padding: 0 0 0 3%;*/
+	display: block;
+/*	border: 1px dashed tomato;	*/
+}
+
+.searchbar {
+	float: right;
+	margin: 4% 5% 0 0;
+	clear: right;
+}
+
+
+.contentbox h1 {
+	font-size: 2em;
+
+
+}
+.contentbox p{
+	font-size: 1em;
+}
+
+/*____________________________________________________NAV AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
+
+.menu {
+	width: 100%;
+	position: relative;
+	height: 50px;
+	min-width: 800px;
+	margin: auto 0;
+	clear: both;
+	font-size: 1em;
+	background-color: #5690b4;
+}
+
+.menu li {
+	padding: 15px;
+}
+
+.menu a {
+	background-color: #5690b4; 
+	color: white;
+	text-decoration: none;
+}
+
+
+.menu li:hover a {
+	background-color: #bcc5cb;
+}
+
+.navleft li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	border-right: solid  1px white;
+}
+
+.navleft a {
+
+}
+
+.navright {
+	margin: 1em;
+	padding: 0;
+}
+
+.navright a {
+	padding: 0 10px;
+	background-color: #5690b4; 
+	color: white;
+}
+
+.navright li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	float: right;
+	border-left: solid  1px white;
+}
+
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block; 
+}
+
+/*____________________________________________________BODY STYLES AND SHIT ___________________________________________________________*/
+/*===============================================================================================================================*/
+
+.content-wrapper {
+	width: 100%;
+	min-width: 850px;
+	position: relative;
+	border: 1px dashed tomato;
+}
+
+.centerwrap {
+	top: 450px;
+	position: relative;
+}
+
+.absolutecenter {
+  bottom: 0;
+  height: 600px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+}
+
+.absolutecenter h1 {
+	text-align: center;
+}
+
+
+
+
