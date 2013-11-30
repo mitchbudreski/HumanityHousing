@@ -5,7 +5,7 @@ body{
 	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	background-color: white;
+	background-color: #d5d4d4;
 }
 
 
@@ -14,21 +14,16 @@ body{
 
 .headwrap {
 	width: 100%;
-	min-width: 920px;
-	margin: 1% 0 2% 1%;
-	top: 0;
+	min-width: 850px;
 }
 
 .logo {
-	min-width: 100px;
-	width: 80px;
+	border: 1px dashed tomato;
+	width: 250px;
+	height: 150px;
 	float: left;
-	margin-bottom: 20px;
-}
+	margin: 3% 0 3% 6%;
 
-.logo img {
-	width: 	100%;
-	height: 100%;
 }
 
 .contentbox {
@@ -37,7 +32,7 @@ body{
 	padding: 0;
 	text-align: left;
 	line-height: 0.5;
-	margin: 0 0 0 0.5%;
+	margin: 9% 0 0 5%;
 	padding: 0 0 0 0;
 	min-width: 150px;
 }
@@ -51,19 +46,19 @@ body{
 
 .searchbar {
 	float: right;
-	margin: 0 5% 0 0;
+	margin: 4% 5% 0 0;
 	clear: right;
 }
 
+}
 
 .contentbox h1 {
-	font-size: 2em;
+	font-size: 8em;
 
 
 }
 .contentbox p{
 	font-size: 1em;
-	text-align: right;
 }
 
 /*____________________________________________________NAV AND SHIT ___________________________________________________________*/
@@ -101,7 +96,6 @@ body{
 	list-style-type: none;
 	float: left;
 	border-right: solid  1px white;
-	position: relative;
 }
 
 .navleft a {
@@ -124,10 +118,17 @@ body{
 	text-decoration: none;
 	list-style-type: none;
 	float: right;
-	border-left: solid  1px white;
+		border-left: solid  1px white;
 }
 
 
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block; 
+	}
 
 /*____________________________________________________BODY STYLES AND SHIT ___________________________________________________________*/
 /*===============================================================================================================================*/
@@ -140,58 +141,35 @@ body{
 }
 
 .centerwrap {
-	top: 0;
+	top: 450px;
 	position: relative;
 }
 
 .absolutecenter {
   bottom: 0;
-  height: 100%;
+  height: 600px;
   left: 0;
   margin: auto;
   position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 600px;
 }
 
 .absolutecenter h1 {
 	text-align: center;
 }
 
-.infographic {
-	margin: 100px auto;
-	overflow: hidden;
-	width: 1000px;
-	height: 400px;
-/*	border: 1px dashed tomato;*/
-}
-
-.welcome {
-	width: 800px;
-	margin: 6em auto; 
-}
 /* -------------------------------------------- ADMIN DASHBOARD -------------------------------------------- */
 
-.div.dashboardContain {
-	min-width: 100px; 
+div.dashboardContain {
 	overflow: auto;
 	width: 100%;
 	background-color: white;
 	padding-top: 45px;
 }
 
-.dashboardContain {
-	min-width: 1500px; 
-	height: 100%;
-}
 
-.adv {
-	width: 800px;
-	border: 1px solid black;
-	margin: 1em 17em 0 0;
-	padding: 2em;
-}
 
 /* -------------------------------------------- STYLES FOR ALL ADMIN FORMS -------------------------------------------- */
 
@@ -213,18 +191,6 @@ min-width: 900px;
 }
 
 
-/* -------------------------------------------- ADMIN DASHBOARD -------------------------------------------- */
-
-div.dashboardContain {
-	overflow: auto;
-	width: 100%;
-	background-color: white;
-	padding-top: 45px;
-}
-
-
-
-
 /* -------------------------------------------- STYLES FOR ADMIN MENU -------------------------------------------- */
 
 
@@ -235,20 +201,20 @@ div.dashboardContain {
 	padding-left: 55px;
 }
 
-#menuContain ul {
+ul {
 	list-style-type: none;
 	border: 1px black solid;
 	padding: 0;
 }
 
-#menuContain li a {
+li a {
 	text-decoration: none;
 }
 
 li.sidebarItem a:link {color:#666;}      /* unvisited link */
-li.sidebarItem a:visited {color:#666;}  /* visited link */
+li.sidebarItem a:visited {color:#00FF00;}  /* visited link */
 li.sidebarItem a:hover {color:#FF00FF;}  /* mouse over link */
-li.sidebarItem a:active {color:#fd24f7;}  /* selected link */
+li.sidebarItem a:active {color:#0000FF;}  /* selected link */
 
 
 li.sidebarItem {
@@ -263,108 +229,3 @@ li.sidebarItem:active {
 }
 
 
-
-/* -------------------------------------------- STYLES FOR Login.php -------------------------------------------- */
-
-.logintop {
-height: 60px;
-width: 270px;
-margin: 0 auto; 
-border-bottom: 1px solid black;
-left: 0;
-}
-
-.logintop img{
-	margin: 0 auto; 
-	float: left;
-	width: 20%;
-}
-
-.logintop h3 {
-	float: left;
-}
-
-.loginbottom  {
-	margin: 4em 0;
-	line-height: 1;
-	vertical-align: center;
-}
-
-.position {
-	margin-left: 170px;
-}
-
-.loginbottom input {
-	margin-bottom: 2em;
-}
-
-/* -------------------------------------------- STYLES FOR contactUs.php -------------------------------------------- */
-
-
-.row.details {
-	margin: 30px 0 30px 8em ;
-}
-
-
-.row.infotext {
-	margin: 30px 0 30px 8em ;
-}
-
-.contact {
-	top: 23em;
-}
-
-/* -------------------------------------------- STYLES FOR aboutUs.php -------------------------------------------- */
-
-
-.aboutCaption {
-	width: 80%;
-	border: 1px dashed tomato;
-	margin: 2em auto 2em auto;
-
-}
-
-.aboutCaption p {
-	font-size: 1.3em;
-	margin-left: 200px;
-	width: 400px;
-	height: 400px;
-	overflow: scroll;		
-	float: left;
-}
-
-.aboutCaption h3 {
-	text-align: center;
-	font-size: 3em;
-}
-
-.aboutCaption img {
-	float: left;
-	width: 40%;
-	margin: 0 auto;
-}
-
-
-
-/* -------------------------------------------- clearfix-------------------------------------------- */
-
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
- 
-.clearfix {
-    display: inline-block;
-}
- 
-html[xmlns] .clearfix {
-    display: block;
-}
- 
-* html .clearfix {
-    height: 1%;
-}
