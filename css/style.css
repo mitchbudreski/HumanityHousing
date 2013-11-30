@@ -324,6 +324,18 @@ left: 0;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .aboutCaption p {
 	font-size: 1.3em;
 	margin-left: 200px;
@@ -360,6 +372,17 @@ left: 0;
 .clearfix {
     display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
  
 html[xmlns] .clearfix {
     display: block;
